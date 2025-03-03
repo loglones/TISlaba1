@@ -1,4 +1,4 @@
-describe('application', () => {
+describe('application_none', () => {
     it('application', () =>{
         cy.fixture('cypressTest').then(data => {
             cy.log('переход на авторизацию')
@@ -13,9 +13,9 @@ describe('application', () => {
             cy.get('.page-nav__role-block > .button').click()
             cy.get('.select-role-form > :nth-child(1)').click()
             cy.get('.variants-company > :nth-child(2)').click()
-            cy.get(':nth-child(1) > .form-control--medium > .form-input--text').type(data.name_for_rabotadatel)
-            cy.get(':nth-child(2) > .form-control--medium > .form-input--text').type(data.address_for_rabotadatel)
-            cy.get('.form-area').type(data.desc_for_rabotadatel)
+            cy.get(':nth-child(1) > .form-control--medium > .form-input--text').type(data.none_name_for_rabotadatel)
+            cy.get(':nth-child(2) > .form-control--medium > .form-input--text').type(data.none_address_for_rabotadatel)
+            cy.get('.form-area').type(data.none_desc_for_rabotadatel)
             cy.get('.create-company-form__description-block > .button').click()
 
         })

@@ -1,8 +1,15 @@
 {
   "main_url": "https://passport.yandex.ru/",
   "none_existent_login": "крутойчел228",
+  "none_existent_pass" : "12312@123123",
   "login": "doter",
   "login_for_rabotadatel": "rabotadatel",
+  "name_for_rabotadatel" : "overcringe",
+  "address_for_rabotadatel": "Россия Томск ул.учебная 8",
+  "desc_for_rabotadatel": "Крутая компания выигрывающая катки в доте",
+  "none_address_for_rabotadatel": "adnnu123@@@___***123u1",
+  "none_desc_for_rabotadatel": "1@#3123sad",
+  "none_name_for_rabotadatel" : "@_`~krут",
   "pass_for_rabotadatel" : "123Qweasd",
   "none_existent_password": "Test_тест",
   "password": "Dimassik228doter",
@@ -13,5 +20,7 @@
   "thirdName": "Михайлович",
   "firstName_none": "ice228",
   "lastName_none" : "ger__337",
-  "thirdName_none": "@@@@@"
+  "thirdName_none": "@@@@@",
+  "login_for_shkola" : "shkola",
+  "pass_for_shkola" : "123Qweasd"
 }
